@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GildedRose", "GildedRose\GildedRose.csproj", "{E40FC8ED-235F-492B-912B-80BA7500C8F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GildedRose.Tests", "GildedRose.Tests\GildedRose.Tests.csproj", "{BB589170-5C4D-46F2-AAD3-D7BA224DE78E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D6436087-A8C2-490B-98F4-B05462A3D06D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E40FC8ED-235F-492B-912B-80BA7500C8F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E40FC8ED-235F-492B-912B-80BA7500C8F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E40FC8ED-235F-492B-912B-80BA7500C8F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E40FC8ED-235F-492B-912B-80BA7500C8F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB589170-5C4D-46F2-AAD3-D7BA224DE78E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB589170-5C4D-46F2-AAD3-D7BA224DE78E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB589170-5C4D-46F2-AAD3-D7BA224DE78E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB589170-5C4D-46F2-AAD3-D7BA224DE78E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D762C163-2486-437A-BF9F-50C2204CA151}
+	EndGlobalSection
+EndGlobal
